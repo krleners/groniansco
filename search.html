@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gronians Search Topics</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="searchstyle.css" />
+    <script>
+      $(window).on('scroll', function(){
+          if($(window).scrollTop()){
+            $('nav').addClass('black');
+          }else {
+          $('nav').removeClass('black');
+        }
+      })
+    </script>
+  </head>
+  <header>
+		<nav>
+      <h1>How can we help you?</h1>
+      
+    
+      <a href="./subjects/computer_courses.html">
+        <div class="eks"><img src="images/icon/ekis.png" alt="X icon"></div>
+      </a>
+		  </nav>
+	</header>
+
+
+  </header>
+  <body>
+    <div class="wrapper">
+      <div class="logo">
+      <img src="images/icon/logoforsearch.png">
+      </div>
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="  Search here..."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Topwear')">
+          Introduction to CSS
+        </button>
+        <button class="button-value" onclick="filterProduct('Bottomwear')">
+          Computer Hardware
+        </button>
+        <button class="button-value" onclick="filterProduct('Watch')">
+          Software Installation
+        </button>
+        <button class="button-value" onclick="filterProduct('Jacket')">
+          Network Setup
+        </button>
+        <button class="button-value" onclick="filterProduct('Repair')">
+            Computer Repair
+          </button>
+
+      </div>
+      <div id="products"></div>
+    </div>
+    <!-- Script -->
+    <script src="searchscript.js"></script>
+  </body>
+</html>

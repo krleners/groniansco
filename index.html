@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+  <title> Gronians </title>
+  <meta name="desciption" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+<header id="header">
+  <nav>
+    <div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+    <ul>
+      <li><a class="active" href="">What's New</a></li>
+      <li><a href="#about_section">What We Are</a></li>
+      <li><a href="#services_section">What We Do</a></li>
+      <li><a href="#about_section">Who We Are</a></li>
+      <li><a href="#contactus_section">FAQs</a></li>
+      <li><a href="#contactus_section">Contact Us</a></li>
+    </ul>
+    <a class="get-started" href="login.html"> Login / Register </a>
+  </a>
+    <img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+  </nav>
+  <div class="container">
+
+
+  <div class="head-container">
+    <div class="quote">
+      <p> ONLINE <br>
+      LEARNING</p>
+      <h5>Learning computer system servicing is not just about fixing technical issues, it's about unlocking the full potential of technology</h5>
+      <div class="play">
+      <span><a href="login.html" id="button" target="_blank"><h3> Get started </h3></a></span>
+      </div>
+    </div>
+    <div class="svg-image">
+      <img src="images/extra/svg.png" alt="svg">
+    </div>
+  </div>
+  <div class="side-menu" id="side-menu">
+    <div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+    <div class="user">
+    </div>
+    <ul>
+      <li><a href="#about_section">About</a></li>
+      
+      <li><a href="#services_section">Services</a></li>
+      <li><a href="#contactus_section">Contact</a></li>
+      
+    </ul>
+  </div>
+  </div>
+</header>
+
+<!-- Some Popular Subjects -->
+
+
+
+<!-- ABOUT -->
+<div class="diffSection" id="about_section">
+  <center><p style="font-size: 45px; padding: 100px; color: #000000;">WHAT WE ARE<p></center>
+  <div class="about-content">
+    <div class="side-image">
+      <img class="sideImage" src="images/extra/e3.jpg">
+    </div>
+    <div class="side-text">
+      <h2>What you think about us ?</h2>
+      <p>We are a team of dedicated professionals who are passionate about technology and providing the best possible service to our clients. Our company was founded with the goal of offering top-quality computer system services to businesses and individuals in need of reliable and efficient IT solutions.
+
+        Our services include computer repair, virus removal, data backup and recovery, software installation, network setup and maintenance, and much more. We work with both Windows and Mac operating systems and are equipped to handle any technical challenge that comes our way.
+        
+      <br>
+
+       Thank you for considering our services. We look forward to the opportunity to work with you and provide the best possible computer system solutions for your needs.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- PORTFOLIO -->
+
+<!-- TEAM -->
+
+
+<!-- SERVICES -->
+<div class="service-swipe">
+  <div class="diffSection" id="services_section">
+    <center><p style="font-size: 45px; padding: 100px; color: #000000;">WHAT WE DO</p></center>
+  </div>
+  <a href="subjects/computer_courses.html"><div class="s-card"><img src="images/icon/courses.png"><p>Courses</p></div></a>
+  <a href="#"><div class="s-card"><img src="images/icon/online.png"><p>Online Learning</p></div></a>
+  <a href="samplePapers/c1.pdf"><div class="s-card"><img src="images/icon/book.png"><p>Curriculum</p></div></a>
+  <a href="subjects/quiz.html"><div class="s-card"><img src="images/icon/quiz.png"><p>Quizzes</p></div></a>
+  <a href="#contactus_section"><div class="s-card"><img src="images/icon/secured.png"><p>Secured Log-in</p></div></a>
+  <a href="#contactus_section"><div class="s-card"><img src="images/icon/certificate.png"><p>Certification</p></div></a>
+  <a href="#contactus_section"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion</p></div></a>
+  <a href="#contactus_section"><div class="s-card"><img src="images/icon/contact.png"><p>Contact Us</p></div></a>
+</div>
+
+
+
+<!-- CONTACT US -->
+<div class="diffSection" id="contactus_section">
+  <div class="contact-bg"></div>
+  <div class="contact-cont">
+  <center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+  <div class="csec"></div>
+  <div class="back-contact">
+    <div class="cont-title" style="width: 30%">
+      <h1>Let's chat, <br>Tell me about <br>  our project.</h1>
+      <h5> Let's create something together.</h5>
+    </div>
+    <div class="cc">
+      <form action="mailto:johncarlenero1@gmail.com" method="post" enctype="text/plain">
+        <label>Fullname <span class="imp">*</span></label><br>
+        <center>
+          <input type="text" name="" style="margin-right: 10px; width: 100%" required="required">
+        </center>
+        <label>Email <span class="imp">*</span></label><br>
+        <input type="email" name="mail" style="width: 100%" required="required"><br>
+        <label>Message <span class="imp">*</span></label><br>
+        <input type="text" name="message" style="width: 100%" required="required"><br>
+        <label>Additional Details</label><br>
+        <textarea name="addtional"></textarea><br>
+        <button type="submit" id="csubmit1" class="csubmit1">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!--FAQS-->
+
+
+
+<!-- Sliding Information -->
+<marquee style="background: linear-gradient(to right, #00b3c6, #37faf7,  #00b3c6); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu"></div></marquee>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="left-col">
+      <img src="images/icon/logo - Copy.png" style="width: 200px;">
+      <div class="logo"></div>
+      <div class="social-media">
+        <a href="#"><img src="images/icon\fb.png"></a>
+        <a href="#"><img src="images/icon\insta.png"></a>
+        <a href="#"><img src="images/icon\tt.png"></a>
+        <a href="#"><img src="images/icon\ytube.png"></a>
+        <a href="#"><img src="images/icon\linkedin.png"></a>
+      </div><br><br>
+      <p class="rights-text">Copyright © 2023 Created by Lagro High School Researchers. All Rights Reserved.</p>
+
+    </div>
+    <div class="right-col">
+      <h1 style="color: #fff">Get updated </h1>
+      <div class="border"></div><br>
+      <p>To receive news and updates from us, enter your email.</p>
+      <form class="newsletter-form">
+        <input class="txtb" type="email" placeholder="Enter Your Email">
+        <input class="btn" type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<div class="team_container" id="team_section">
+  <div class="section-title">
+      <h1>Our Team Page</h1>
+  </div>
+
+  <div class="row">
+
+
+      <div class="column">
+          <div class="team">
+              <div class="team-img">
+                  <img src="images/creator/Johncarl.jpg" alt="Team Image">
+              </div>
+              <div class="team-content">
+                  <h2>John Carl Enero</h2>
+                  <h3>Project Manager & Programmer/Developer</h3>
+                  <p>Always smile, meto meto
+                    <br>
+                    .
+                  </p>
+                  <h4>johncarlenero1@gmail.com</h4>
+              </div>
+              <div class="team-social">
+                  <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
+                  <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+
+      <div class="column">
+          <div class="team">
+              <div class="team-img">
+                  <img src="images/creator/arvin.jpg" alt="Team Image">
+              </div>
+              <div class="team-content">
+                  <h2>Arvin Banluta</h2>
+                  <h3>System Analyst</h3>
+                  <p>Hindi mahalaga ang magwagi, Ang mahalaga ikaw ay nakibahagi.</p>
+                  <h4>banlutarvin@gmail.com</h4>
+              </div>
+              <div class="team-social">
+                  <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
+                  <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+
+      <div class="column">
+          <div class="team">
+              <div class="team-img">
+                  <img src="images/creator/jayrue.png" alt="Team Image">
+              </div>
+              <div class="team-content">
+                  <h2>Jayrue Roque</h2>
+                  <h3>IT Documenter</h3>
+                  <p>Reyalidad, Hindi Ilusyon. Walang swerte, Lahat kilos 'yon.</p>
+                  <h4>jayrueroque@gmail.com</h4>
+              </div>
+              <div class="team-social">
+                  <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
+                  <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+
+      <div class="column">
+          <div class="team">
+              <div class="team-img">
+                  <img src="images/creator/jead.jpg" alt="Team Image">
+              </div>
+              <div class="team-content">
+                  <h2>Jead Ebuenga</h2>
+                  <h3>System Engineer</h3>
+                  <p>Reyalidad, Hindi Ilusyon. Walang swerte, Lahat kilos 'yon.</p>
+                  <h4>jeadebuenga19@gmail.com</h4>
+              </div>
+              <div class="team-social">
+                  <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                  <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
+                  <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="column">
+        <div class="team">
+            <div class="team-img">
+                <img src="images/creator/carlo.png" alt="Team Image">
+            </div>
+            <div class="team-content">
+                <h2>Carlo Inciso</h2>
+                <h3>Programmer/Developer</h3>
+                <p>Hindi mahalaga ang magwagi, Ang mahalaga ikaw ay nakibahagi.</p>
+                <h4>johncarloinciso@gmail.com</h4>
+            </div>
+            <div class="team-social">
+                <a href="#" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-fb"> <i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-in"> <i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-yt"> <i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+  
+  </div>
+
+</div>
